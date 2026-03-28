@@ -20,7 +20,7 @@ That's it. No environment variables, no database, no API keys.
 ## What you get
 
 - Dark-themed X/Twitter-style infinite scroll feed
-- 60+ curated engineering concepts across 14 categories
+- 560+ curated engineering concepts across 14 categories
 - Tap any card to expand: full explanation, examples, "why it matters", related terms
 - Category filtering via sidebar
 - Mobile responsive

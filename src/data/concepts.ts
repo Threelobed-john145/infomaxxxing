@@ -1,6 +1,20 @@
 import { Concept } from "@/lib/types";
+import { securityConcepts } from "./categories/security";
+import { networkingConcepts } from "./categories/networking";
+import { algorithmsConcepts } from "./categories/algorithms";
+import { dataStructuresConcepts } from "./categories/data-structures";
+import { designPatternsConcepts } from "./categories/design-patterns";
+import { systemsConcepts } from "./categories/systems";
+import { webConcepts } from "./categories/web";
+import { databasesConcepts } from "./categories/databases";
+import { devopsConcepts } from "./categories/devops";
+import { cryptographyConcepts } from "./categories/cryptography";
+import { architectureConcepts } from "./categories/architecture";
+import { programmingConcepts } from "./categories/programming";
+import { performanceConcepts } from "./categories/performance";
+import { concurrencyConcepts } from "./categories/concurrency";
 
-export const concepts: Concept[] = [
+const coreConcepts: Concept[] = [
   // ============ SECURITY ============
   {
     id: "xss",
@@ -934,4 +948,22 @@ export const concepts: Concept[] = [
     whyItMatters: "Without pooling, a web server handling 1000 concurrent requests opens 1000 database connections - likely overwhelming the database (PostgreSQL defaults to 100 max connections). Connection pooling is one of those 'invisible' optimizations that prevents catastrophic failures under load.",
     relatedTerms: ["database", "TCP", "PgBouncer", "resource management"],
   },
+];
+
+export const concepts: Concept[] = [
+  ...coreConcepts,
+  ...securityConcepts,
+  ...networkingConcepts,
+  ...algorithmsConcepts,
+  ...dataStructuresConcepts,
+  ...designPatternsConcepts,
+  ...systemsConcepts,
+  ...webConcepts,
+  ...databasesConcepts,
+  ...devopsConcepts,
+  ...cryptographyConcepts,
+  ...architectureConcepts,
+  ...programmingConcepts,
+  ...performanceConcepts,
+  ...concurrencyConcepts,
 ];
