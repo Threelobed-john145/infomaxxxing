@@ -314,22 +314,22 @@ export function HomeClient({
         </a>
       </div>
 
-      {/* Mobile CTA - icon buttons, bottom right */}
-      <div className="lg:hidden fixed bottom-4 right-3 z-50 flex items-center gap-2">
+      {/* Mobile CTA - sticky bottom footer with icon buttons */}
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-black border-t border-[var(--border)] px-4 py-2.5 flex items-center justify-center gap-3 safe-bottom">
         <a
           href="https://bootoshi.ai/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-[42px] h-[42px] bg-black border border-[var(--border)] rounded-2xl flex items-center justify-center hover:border-[var(--muted)]/50 transition-colors"
+          className="w-[38px] h-[38px] bg-black border border-[var(--border)] rounded-xl flex items-center justify-center hover:border-[var(--muted)]/50 transition-colors"
           title="@KingBootoshi"
         >
-          <img src="/avatar.png" alt="KingBootoshi" className="w-6 h-6 rounded-lg" style={{ imageRendering: "pixelated" as const }} />
+          <img src="/avatar.png" alt="KingBootoshi" className="w-5 h-5 rounded-md" style={{ imageRendering: "pixelated" as const }} />
         </a>
         <a
           href="https://x.com/KingBootoshi"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-[42px] h-[42px] bg-black border border-[var(--border)] rounded-2xl flex items-center justify-center text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--muted)]/50 transition-colors"
+          className="w-[38px] h-[38px] bg-black border border-[var(--border)] rounded-xl flex items-center justify-center text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--muted)]/50 transition-colors"
           title="Follow on X"
         >
           <svg viewBox="0 0 24 24" className="w-[18px] h-[18px] fill-current" aria-hidden="true">
@@ -340,7 +340,7 @@ export function HomeClient({
           href="https://discord.gg/shnvZhmtRG"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-[42px] h-[42px] bg-black border border-[var(--border)] rounded-2xl flex items-center justify-center text-[var(--muted)] hover:text-[#5865F2] hover:border-[#5865F2]/30 transition-colors"
+          className="w-[38px] h-[38px] bg-black border border-[var(--border)] rounded-xl flex items-center justify-center text-[var(--muted)] hover:text-[#5865F2] hover:border-[#5865F2]/30 transition-colors"
           title="Join Discord"
         >
           <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" aria-hidden="true">
@@ -351,7 +351,7 @@ export function HomeClient({
           href="https://github.com/kingbootoshi/infomaxxxing"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-[42px] h-[42px] bg-black border border-[var(--border)] rounded-2xl flex items-center justify-center text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--muted)]/50 transition-colors"
+          className="w-[38px] h-[38px] bg-black border border-[var(--border)] rounded-xl flex items-center justify-center text-[var(--muted)] hover:text-[var(--foreground)] hover:border-[var(--muted)]/50 transition-colors"
           title="View on GitHub"
         >
           <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" aria-hidden="true">
